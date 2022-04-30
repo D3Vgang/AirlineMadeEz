@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>EZPZ Airlines</title>
+    </head>
+    <body>
+        {% block body %}
+        <h1 style="font-family: sans-serif;">INSTALLED APPS</h1>    
+        <ul>
+                <li><a href="admin/" style="font-family: sans-serif;">Admin site</a></li>
+                <li><a href="{% url 'index'%}" style="font-family: sans-serif;">Flights</a></li>
+            </ul>
+        {% endblock %}
+    </body>
+</html>
