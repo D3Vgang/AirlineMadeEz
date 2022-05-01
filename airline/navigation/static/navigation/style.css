@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    color: #e8eaed;
+    background-color: black;
+}
+
+.maincontainer {
+    width: 100%;
+    height: 100%;
+    border: none;
+    justify-content: center; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.maincontainer::after {
+    content: "";
+    background: url("../navigation/media/bg1.jpg") 100% 0 no-repeat fixed;
+    opacity: 0.3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+    position:absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    text-align: center;
+}
+.top,
+.container {
+    display: inline-block;
+    background: transparent;
+    position:relative;
+    z-index: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.top {
+    font: 'Roboto Mono', monospace;
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul li {
+    z-index: 1000000;
+    color: white;
+    margin: 20px;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    z-index: 100;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+#buttons li {
+    float: left;
+    list-style: none;
+    text-align: center;
+    background: transparent;
+    margin-right: 30px;
+    width: 200px;
+    line-height: 60px;
+    
+}
+
+#buttons li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    border: 1px solid white;
+    
+}
+
+#buttons li a:hover {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid black;
+    background-color: rgba(255,255,255,0.5);
+}

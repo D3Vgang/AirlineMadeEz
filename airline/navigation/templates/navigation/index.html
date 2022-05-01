@@ -1,15 +1,26 @@
+{%load static%}
+<link href="{% static 'navigation/style.css' %}" rel="stylesheet" />
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <title>EZPZ Airlines</title>
     </head>
     <body>
-        {% block body %}
-        <h1 style="font-family: sans-serif;">INSTALLED APPS</h1>    
-        <ul>
-                <li><a href="admin/" style="font-family: sans-serif;">Admin site</a></li>
-                <li><a href="{% url 'index'%}" style="font-family: sans-serif;">Flights</a></li>
-            </ul>
-        {% endblock %}
+        <div class="maincontainer">
+            <div class="c">
+                <div class="top">
+                    <h1 style="font-family: sans-serif;">AIRLINES</h1>    
+                </div>
+                <div class="container">
+                    <ul id="buttons">
+                        <li><a href="admin/" style="font-family: sans-serif;">Admin site</a></li>
+                        <li><a href="{% url 'index'%}" style="font-family: sans-serif;">Flights</a></li>
+                        <li><a href="{% url 'userindex'%}" style="font-family: sans-serif;">users</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
