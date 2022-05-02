@@ -9,9 +9,11 @@
 ![forthebadge](https://forthebadge.com/images/badges/uses-git.svg)
 ![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)
 
-## it is a complete Airline management Django application.
+## It is a complete Airline management Django application which uses Sqlite3 for managing data.
 ## Credits
+Naiswita Parmar Mam
 
+## Contributors
 - [@meetmepatel](https://github.com/meetmepatel) - 20124040
 - [@KrishSavani](https://github.com/KrishSavani) - 20124041
 - [@OhmPatil](https://github.com/OhmPatil) - 20124034
