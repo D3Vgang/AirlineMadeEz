@@ -11,7 +11,7 @@
 
 ## It is a complete Airline management Django application which uses Sqlite3 for managing data.
 ## Project Documentation
-![Doc](https://drive.google.com/file/d/1LI1tlAhyHCK7XpyFsqTomQ74lN7hIfWs/view?usp=sharing)
+[Doc](https://drive.google.com/file/d/1LI1tlAhyHCK7XpyFsqTomQ74lN7hIfWs/view?usp=sharing)
 ## Credits
 Naiswita Parmar Mam
 
