@@ -7,7 +7,7 @@
         <li>Destination : {{ flight.destination }}</li>
         <li>Duration : {{ flight.duration }}</li>
     </ul>
-    <h2>Passengers</h2>
+    <h2>Passenger List</h2>
     <ul>
         {% for passenger in passengers %}
             <li>{{ passenger }}</li>
@@ -16,7 +16,7 @@
 
         {% endfor %}
     </ul>
-    <h2>Add Passenger</h2>
+    <h2>Add New Passenger</h2>
 
     <form action="{% url 'book' flight.id %}" method="post">
         {% csrf_token %}
